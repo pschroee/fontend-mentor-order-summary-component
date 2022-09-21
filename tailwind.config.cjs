@@ -4,6 +4,9 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
   content: ["./index.html"],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     screens: {
       desktop: "992px",
